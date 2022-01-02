@@ -1,0 +1,40 @@
+{
+    "name": "mustafaalansary/laravel-spatie-permission-uuid",
+    "description": "Adding UUID support for Laravel Spatie permission",
+    "keywords": [
+        "laravel",
+        "spatie",
+        "permission",
+        "uuid"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mustafa Al Ansary",
+            "email": "mustafa@mm-a.me"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.3|^8.0",
+        "illuminate/filesystem": "^8.42",
+        "illuminate/support": "^8.42"
+
+    },
+    "autoload": {
+        "psr-4": {
+            "Mustafaalansary\\laravelSpatiePermissionUuid\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mustafaalansary\\laravelSpatiePermissionUuid\\LaravelSpatiePermissionUuidServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "prefer-stable": true
+}
