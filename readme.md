@@ -5,7 +5,7 @@ This package can be used with Laravel 6.0 or higher
 
 ## Installation
 
-`composer require spatie/laravel-permission  mustafa-alansary/laravel-users-roles-permission --dev`
+`composer require spatie/laravel-permission  mustafaalansary/laravel-spatie-permission-uuid   --dev`
 
 `php artisan lspuuid:install`
 
